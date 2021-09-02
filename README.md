@@ -1,2 +1,2 @@
 # netflix_clone
-Created with CodeSandbox
+I Created Basic Netflix clone with CodeSandbox just by using HTML, CSS , JAVASCRIPT 
