@@ -88,6 +88,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    animation: animation-start 2s forwards ease-in-out;
+}
+
+@keyframes animation-start{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
 }
 
 .hero__title {
