@@ -135,10 +135,9 @@ body {
 .email__form__container {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 150%;
+    width: 100%;
 }
 
 .form__container {
@@ -168,14 +167,9 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    /* padding: 1.8rem 1.2rem; */
     border-radius: 2px;
-    font-size: 25px;
-    padding-top: 17px;
-    padding-bottom: 43px;
-    padding-right: 1.5%;
-    padding-left: 1.5%;
-    /* letter-spacing: 1px; */
+    font-size: 16px;
+    padding: 17px 1.5%;
 }
 
 .feature {
@@ -388,6 +382,9 @@ footer {
     .hero__description {
         font-size: 1.3rem;
     }
+    .primary__button {
+        height: 60px;
+    }
     .feature {
         padding: 4rem;
     }
@@ -463,9 +460,6 @@ footer {
         flex-direction: row;
         align-items: center;
         gap: 1px;
-    }
-    .primary__button {
-        height: 50px;
     }
     .feature {
         display: flex;
