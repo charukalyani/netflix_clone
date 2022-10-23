@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #fffff;
+    background-color: "#fffff";
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -116,6 +116,7 @@ body {
 }
 
 .email__input {
+    cursor: pointer;
     border: none;
     background: transparent;
     width: 100%;
@@ -162,14 +163,20 @@ body {
 }
 
 .primary__button {
-    background-color: #dc030f;
-    border: 1px solid #dc030f;
+    cursor: pointer;
+    background-color: #f64d56;
+    border: 1px solid #d3333b;
     color: white;
     justify-content: center;
     align-items: center;
     border-radius: 2px;
     font-size: 16px;
     padding: 17px 1.5%;
+    transition: all 1s ease 0s;
+}
+
+.primary__button:hover{
+    background-color: rgb(157, 9, 9);
 }
 
 .feature {
@@ -288,9 +295,13 @@ body {
     background-color: #303030;
     border: 1px solid #303030;
     color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .FAQ__visible {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
     background-color: #303030;
     border-top: 1px solid black;
     max-height: 0;
