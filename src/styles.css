@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: "#fffff";
+    background-color: "#4c4c4c";
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -33,7 +33,7 @@ body {
 .language__drop__down {
     background: transparent;
     border: none;
-    color: #757575;
+    color: #2986cc;
 }
 
 .language__drop__down:focus {
@@ -48,7 +48,7 @@ body {
 }
 
 .signin__button {
-    background-color: #dc030f;
+    background-color: #6cd53f;
     border: 1px solid #dc030f;
     color: white;
     padding: 0.25rem 0.5rem;
