@@ -1,20 +1,14 @@
-let accordian = document.getElementsByClassName("FAQ_Title");
+const accordian = document.getElementsByClassName("FAQ_Title");
+
+function toggleAccordion() {
+  const icon = this.querySelector("i");
+  const content = this.nextElementSibling;
+
+  icon.classList.toggle("fa-plus");
+  icon.classList.toggle("fa-times");
+  content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
+}
 
 for (let i = 0; i < accordian.length; i++) {
-  accordian[i].addEventListener("click", function () {
-    if (this.childNodes[1].classList.contains("fa-plus")) {
-      this.childNodes[1].classList.remove("fa-plus");
-      this.childNodes[1].classList.add("fa-times");
-    } else {
-      this.childNodes[1].classList.remove("fa-times");
-      this.childNodes[1].classList.add("fa-plus");
-    }
-
-    let content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
+  accordian[i].addEventListener("click", toggleAccordion);
 }
