@@ -6,7 +6,7 @@
 
 body {
     background-color: "#4c4c4c";
-    color: #FFFFF;
+    color: #FFFF;
     font-family: "Poppins", sans-serif;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .signin__button {
-    background-color: #6cd53f;
+    background-color: #ff0000;
     border: 1px solid #dc030f;
     color: white;
     padding: 0.25rem 0.5rem;
@@ -104,6 +104,7 @@ body {
     font-weight: 600;
     font-size: 2rem;
     transition: all 1s ease 0s;
+    color: white;
 }
 .hero__title:hover{
     color: #dddddd;
@@ -115,6 +116,7 @@ body {
 .hero__description {
     font-weight: 400;
     font-size: 1rem;
+    color: rgb(251, 251, 251);
 }
 
 .hero__description {
